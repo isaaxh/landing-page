@@ -50,6 +50,10 @@ a {
 
 }
 
+a:hover {
+    color: #3882f6;
+}
+
 .hero-content {
     display: flex;
     height: 500px;
@@ -85,11 +89,15 @@ button {
     height: 35px;
     padding: 5px 12px;
     border-radius: 10px;
+}
 
+button:hover {
+    background-color: #5e99f8;
 }
 
 .hero-btn {
     border: none;
+    box-shadow: 3px 3px 10px black;
 }
 
 .hero-right{
@@ -98,11 +106,13 @@ button {
     margin-bottom: 50px;
 }
 
-img{
+img.header-img {
     width: 567px;
     height: 280px;
     object-fit: cover;
     object-position: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
     
 }
 
@@ -145,10 +155,11 @@ img{
     border-radius: 10px;
     width: 200px;
     height: 200px;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
     display: flex;
     justify-content:center;
     align-items:center;
+    box-shadow: 3px 3px 10px black;
 }
 
 
@@ -200,6 +211,7 @@ img{
     border-radius: 10px;
     display: flex;
     justify-content:space-between;
+    box-shadow: 3px 3px 10px black;
 }
 
 .call-title {
